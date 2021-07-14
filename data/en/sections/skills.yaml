@@ -1,0 +1,28 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python
+  logo: "images/sections/skills/python.svg"
+  summary: "Developed wide range of tools using Python.
+            Very well versed in Data Science and Machine Learning packages
+            like numpy, Pandas, scikit-learn, NLTK, matplotlib, and SciPy."
+
+- name: R
+  logo: "images/sections/skills/r.svg"
+  summary: "Used R for time series analaysis and multivariate regression. Familiar with the tidyverse! (dplyr, ggplot2)"
+
+- name: Data Analysis
+  logo: "images/sections/skills/line.svg"
+  summary: "Strong statistical and algorithmic background.
+  Knowledgable in Multiple Hypothesis Testing, FDR Control, ROC Curves, Frequentist/Bayesian Decision-Making, GLMs,
+  Causal Inference, Bandits Algorithms, Neural Networks, Reinforcement Learning, and Game Theory"

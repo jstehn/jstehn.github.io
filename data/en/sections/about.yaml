@@ -38,5 +38,11 @@ softSkills:
   percentage: 90
   color: yellow
 - name: Research
-  percentage: 75
+  percentage: 80
   color: green
+- name: Learning
+  percentage: 95
+  color: sky
+- name: Communication
+  percentage: 90
+  color: orange
