@@ -11,7 +11,7 @@ section:
 # Your achievements achievements
 achievements:
 - title: B.A. Data Science Highest Distinction (Summa Cum Laude)
-  image: /images/sections/achievements/diploma.jpg
+  image: /images/sections/achievements/grad.jpg
   summary: Graduated top of class at UC Berkeley's data science program!
 - title: 2020-2021 Outstanding Data Science Undergraduate award at University of California, Berkeley.
   image: /images/sections/achievements/outstanding_undergrad.png

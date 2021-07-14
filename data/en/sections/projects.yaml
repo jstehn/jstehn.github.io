@@ -71,3 +71,11 @@ projects:
   repo: https://github.com/jstehn/warren-court-language-model
   summary: An analysis of a corpus of the decisions of the Warren Court. Used to analyze language used, model topics, and map similarity/centrality of decisions. Created a language model based on the corpus.
   tags: ["academic", "data-science", "machine-learning", "nlp"]
+
+- name: COVID-19 Time Series Analysis
+  logo: /images/sections/projects/line_chart.png
+  role: Student
+  timeline: "May 2021"
+  url: https://raw.githubusercontent.com/jstehn/timeseries_covid/main/Time_Series_Analysis.pdf
+  summary: Performed univariate time series analysis on a toy dataset of COVID cases. This is obfuscated data and a test of standard Time Series techniques for modeling signal, seasonality, and noise.
+  tags: ["academic", "data-science", "machine-learning", "time-series", "hobby"]
