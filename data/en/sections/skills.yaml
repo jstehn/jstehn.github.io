@@ -12,7 +12,7 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Python
-  logo: "images/sections/skills/python.png"
+  # logo: "images/sections/skills/python.png"
   summary: "Developed wide range of tools using Python. Very well versed in Data Science and Machine Learning packages like numpy, Pandas, scikit-learn, NLTK, matplotlib, and SciPy."
 
 - name: R
