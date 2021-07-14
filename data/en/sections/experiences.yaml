@@ -71,7 +71,7 @@ experiences:
     # company overview
     overview: "Small consumer computer repair company that worked both in-person and remotely."
   positions:
-  - designation: Full Stack Developer (Contract)
+  - designation: Computer Repair Specialist
     start: Jul 2014
     end: Jan 2016
     # don't provide end date if you are currently working there. It will be replaced by "Present"
