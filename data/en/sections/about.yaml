@@ -26,6 +26,9 @@ socialLinks:
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/jstehn"
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/jack-stehn/"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
