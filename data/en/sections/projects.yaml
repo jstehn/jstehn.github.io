@@ -45,4 +45,29 @@ projects:
   timeline: "Oct 2020"
   repo: https://github.com/jstehn/exploding_dice_exploration
   summary: A fun analysis on how the rule of "exploding dice" affects the properties of dice rolls. A quick romp in statistics and probability theory.
-  tags: ["hobby","academic", "statistics", "rpg"]
+  tags: ["hobby", "statistics", "rpg"]
+
+- name: TransferBound
+  logo: /images/sections/projects/lmc.png
+  role: Developer
+  timeline: "May 2019 - Aug 2019"
+  # repo: https://github.com/jstehn/political_endorsements_2018
+  url: "https://www.transferbound.com/"
+  summary: A tool so that students at Californian Community Colleges can find which programs are available at California's public universities.
+  tags: ["professional", "web-development", "sql"]
+
+- name: COVID-19 Infections Analysis
+  logo: /images/sections/projects/covid.png
+  role: Developer
+  timeline: "May 2020"
+  repo: https://github.com/jstehn/covid-19-coef-analysis
+  summary: A quick analysis of factors that may predict the spread of COVID-19 performed a few weeks after the pandemic started.
+  tags: ["academic", "data-science", "regression", "machine-learning"]
+
+- name: Supreme Court Language Model
+  logo: /images/sections/projects/scales.png
+  role: Researcher
+  timeline: "Mar 2020"
+  repo: https://github.com/jstehn/warren-court-language-model
+  summary: An analysis of a corpus of the decisions of the Warren Court. Used to analyze language used, model topics, and map similarity/centrality of decisions. Created a language model based on the corpus.
+  tags: ["academic", "data-science", "machine-learning", "nlp"]

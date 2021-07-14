@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta name="viewport" content="width=device-width" /><title>https://www.losmedanos.edu/_resources/favicon/safari-pinned-tab.svg</title><link rel="stylesheet" type="text/css" href="resource://content-accessible/viewsource.css" /></head><body id="viewsource" class="highlight" style="-moz-tab-size: 4"><pre id="line1"><span></span><span class="pi">&lt;?xml version="1.0" standalone="no"?&gt;</span><span>
+<span id="line2"></span></span><span class="error doctype" title="Stray doctype.">&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+<span id="line3"></span> "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"&gt;</span><span>
+<span id="line4"></span></span><span>&lt;<span class="start-tag">svg</span> <span class="attribute-name">version</span>="<a class="attribute-value">1.0</a>" <span class="attribute-name">xmlns</span>="<a class="attribute-value">http://www.w3.org/2000/svg</a>"
+<span id="line5"></span> <span class="attribute-name">width</span>="<a class="attribute-value">260.000000pt</a>" <span class="attribute-name">height</span>="<a class="attribute-value">260.000000pt</a>" <span class="attribute-name">viewBox</span>="<a class="attribute-value">0 0 260.000000 260.000000</a>"
+<span id="line6"></span> <span class="attribute-name">preserveAspectRatio</span>="<a class="attribute-value">xMidYMid meet</a>"&gt;</span><span>
+<span id="line7"></span></span><span>&lt;<span class="start-tag">metadata</span>&gt;</span><span>
+<span id="line8"></span>Created by potrace 1.11, written by Peter Selinger 2001-2013
+<span id="line9"></span></span><span>&lt;/<span class="end-tag">metadata</span>&gt;</span><span>
+<span id="line10"></span></span><span>&lt;<span class="start-tag">g</span> <span class="attribute-name">transform</span>="<a class="attribute-value">translate(0.000000,260.000000) scale(0.100000,-0.100000)</a>"
+<span id="line11"></span><span class="attribute-name">fill</span>="<a class="attribute-value">#000000</a>" <span class="attribute-name">stroke</span>="<a class="attribute-value">none</a>"&gt;</span><span>
+<span id="line12"></span></span><span>&lt;<span class="start-tag">path</span> <span class="attribute-name">d</span>="<a class="attribute-value">M0 2290 l0 -310 1300 0 1300 0 0 310 0 310 -1300 0 -1300 0 0 -310z</a>"<span>/</span>&gt;</span><span>
+<span id="line13"></span></span><span>&lt;<span class="start-tag">path</span> <span class="attribute-name">d</span>="<a class="attribute-value">M2094 1686 c-96 -23 -165 -84 -213 -186 -24 -50 -26 -66 -26 -180 0
+<span id="line14"></span>-107 4 -132 22 -172 47 -102 133 -166 254 -188 132 -25 260 9 328 86 46 53 80
+<span id="line15"></span>132 61 144 -22 14 -94 22 -98 11 -10 -29 -51 -76 -82 -92 -42 -23 -120 -25
+<span id="line16"></span>-159 -4 -17 8 -39 34 -52 62 -21 43 -24 62 -24 173 0 107 3 131 21 164 52 101
+<span id="line17"></span>210 102 257 3 9 -19 17 -43 17 -52 0 -14 6 -16 31 -11 17 3 47 6 65 6 l34 0 0
+<span id="line18"></span>115 0 115 -60 0 c-45 0 -61 -4 -68 -17 -9 -15 -12 -15 -45 0 -75 36 -174 44
+<span id="line19"></span>-263 23z</a>"<span>/</span>&gt;</span><span>
+<span id="line20"></span></span><span>&lt;<span class="start-tag">path</span> <span class="attribute-name">d</span>="<a class="attribute-value">M80 1630 c0 -44 3 -50 21 -50 11 0 29 -5 40 -10 18 -10 19 -24 19
+<span id="line21"></span>-250 0 -226 -1 -240 -19 -250 -11 -5 -29 -10 -40 -10 -18 0 -21 -6 -21 -50 l0
+<span id="line22"></span>-50 334 0 333 0 7 73 c4 39 9 99 13 133 5 58 4 61 -18 67 -13 4 -39 7 -56 7
+<span id="line23"></span>-28 0 -33 -3 -33 -25 0 -39 -29 -102 -55 -119 -17 -11 -49 -16 -110 -16 l-85
+<span id="line24"></span>0 0 238 0 239 25 11 c14 7 37 12 50 12 23 0 25 4 25 50 l0 50 -215 0 -215 0 0
+<span id="line25"></span>-50z</a>"<span>/</span>&gt;</span><span>
+<span id="line26"></span></span><span>&lt;<span class="start-tag">path</span> <span class="attribute-name">d</span>="<a class="attribute-value">M800 1630 c0 -44 3 -50 21 -50 11 0 29 -5 40 -10 18 -10 19 -24 19
+<span id="line27"></span>-250 0 -226 -1 -240 -19 -250 -11 -5 -29 -10 -40 -10 -18 0 -21 -6 -21 -50 l0
+<span id="line28"></span>-50 145 0 145 0 0 50 c0 46 -2 50 -23 50 -13 0 -31 6 -40 13 -16 11 -17 33
+<span id="line29"></span>-15 215 l3 203 70 -266 70 -265 95 0 95 0 70 267 70 267 3 -205 c2 -183 1
+<span id="line30"></span>-205 -15 -216 -9 -7 -27 -13 -40 -13 -21 0 -23 -4 -23 -50 l0 -50 200 0 200 0
+<span id="line31"></span>0 50 c0 44 -3 50 -21 50 -11 0 -29 5 -40 10 -18 10 -19 24 -19 250 0 226 1
+<span id="line32"></span>240 19 250 11 5 29 10 40 10 18 0 21 6 21 50 l0 50 -197 -2 -197 -3 -27 -115
+<span id="line33"></span>c-15 -63 -37 -160 -50 -215 -12 -55 -24 -94 -27 -87 -2 7 -25 104 -51 215
+<span id="line34"></span>l-47 202 -207 3 -207 2 0 -50z</a>"<span>/</span>&gt;</span><span>
+<span id="line35"></span></span><span>&lt;<span class="start-tag">path</span> <span class="attribute-name">d</span>="<a class="attribute-value">M0 370 l0 -370 1300 0 1300 0 0 370 0 370 -1300 0 -1300 0 0 -370z</a>"<span>/</span>&gt;</span><span>
+<span id="line36"></span></span><span>&lt;/<span class="end-tag">g</span>&gt;</span><span>
+<span id="line37"></span></span><span>&lt;/<span class="end-tag">svg</span>&gt;</span><span>
+<span id="line38"></span></span></pre></body></html>
