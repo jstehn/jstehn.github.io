@@ -16,7 +16,7 @@ skills:
   summary: "Developed wide range of tools using Python. Very well versed in Data Science and Machine Learning packages like numpy, Pandas, scikit-learn, NLTK, matplotlib, and SciPy."
 
 - name: R
-  logo: "images/sections/skills/r.svg"
+  # logo: "images/sections/skills/r.svg"
   summary: "Used R for time series analaysis and multivariate regression. Familiar with the tidyverse! (dplyr, ggplot2)"
 
 - name: Data Analysis
