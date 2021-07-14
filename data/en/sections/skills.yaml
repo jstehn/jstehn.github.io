@@ -17,7 +17,7 @@ skills:
 
 - name: R
   logo: "images/sections/skills/R_logo.svg"
-  summary: "Used R for time series analaysis and multivariate regression. Familiar with the tidyverse! (dplyr, ggplot2)"
+  summary: "Used R for time series analaysis and multivariate regression. Familiar with the tidyverse! Not my native language, however I have used it for a few projects without issue."
 
 - name: Data Analysis
   logo: "images/sections/skills/line.svg"
