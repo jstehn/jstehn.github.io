@@ -49,3 +49,6 @@ softSkills:
 - name: Communication
   percentage: 90
   color: orange
+- name: Dancing
+  percentage: 55
+  color: black
