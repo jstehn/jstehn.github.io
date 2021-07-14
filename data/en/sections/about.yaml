@@ -43,12 +43,15 @@ softSkills:
 - name: Research
   percentage: 80
   color: green
-- name: Learning
+- name: Fast Learner
   percentage: 95
-  color: sky
+  color: orange
 - name: Communication
   percentage: 90
-  color: orange
-- name: Dancing
-  percentage: 55
-  color: black
+  color: sky
+- name: Problem Solving
+  percentage: 95
+  color: pink
+# - name: Dancing
+#   percentage: 55
+#   color: pink
