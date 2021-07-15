@@ -29,6 +29,9 @@ socialLinks:
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/jack-stehn/"
+- name: Email
+  icon: "fas fa-envelope"
+  url: "mailto:jack.stehn+portfolio@protonmail.com"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.

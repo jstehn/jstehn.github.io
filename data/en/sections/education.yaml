@@ -1,0 +1,65 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B.A. in Data Science (Domain Emphasis of Quantitative Social Science)
+  icon: fa-graduation-cap
+  timeframe: 2019-2021
+  institution:
+    name: University of California, Berkeley
+    url: "https://data.berkeley.edu/academics/undergraduate-programs"
+  grade: #(optional)
+    scale: GPA
+    achieved: 4
+    outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    courses:
+    - name: Data, Inference, and Decisions
+      achieved: 4
+      outOf: 4
+    - name: Data Structures and Algorithm
+      achieved: 4
+      outOf: 4
+    - name: Artificial Intelligence
+      achieved: 4
+      outOf: 4
+    - name: Game Theory in the Social Sciences
+      achieved: 4
+      outOf: 4
+    - name: Linear Algebra
+      achieved: 4
+      outOf: 4
+    - name: Language Models & Text Analysis
+      achieved: 4
+      outOf: 4
+  extracurricularActivities: #(optional)
+  - Data Scholars Program - The Data Scholars Program provides spaces where students from many disciplines and backgrounds learn together, develop their data science skills, and co-create a diverse community. 
+  - DataGood - DataGood @ Berkeley focuses on creating an outlet for students to learn and utilize their data science skills in meaningful impact driven sectors.
+  - Transfer Mentorship - Provide mentorship to incoming students in their transition to Cal.
+  - Data Science Discovery Program - The Data Science Discovery Program connects undergraduates with hands-on, team-based opportunities in cutting-edge data research projects at UC Berkeley, government agencies, community groups, and entrepreneurial ventures.
+
+
+- name: A.S. Mathematics
+  icon: fa-university
+  timeframe: 2017-2019
+  institution:
+    name: Los Medanos College
+    url: "#"
+  grade: #(optional)
+    scale: GPA
+    achieved: 4
+    outOf: 4
+  extracurricularActivities: #(optional)
+  - Academic Competition.
+  - Transfer & Career Services.
+  - Math Tutor.
