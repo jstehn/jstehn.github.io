@@ -1,0 +1,103 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: SetSail
+    url: https://www.setsail.co/
+    # location: Dhaka Branch
+    # company overview
+    overview: "Wore many hats at this startup. Data scientist that worked on ML models. Redesigned and implemented ETL pipeline. Developed in-house development tools using software engineering skills. Worked directly with customers to create data reports that could be used in important business decisions. Worked as a project lead that redesigned much of the data science backend from scratch to create a unified and scalable data processing core."
+  positions:
+  - designation: Data Scientist
+    start: Sep 2021
+    end: Jan 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Built machine learning models in sklearn and used natural language processing to analyze emails and CRM data to improve sales outcomes.
+    - Redesigned and coded data pipeline using Python, SQL, and AWS to process 400% more data and run 50% faster.
+    - Produced customized reports for enterprise customers.
+
+- company:
+    name: DataGood @ Berkeley
+    url: https://datagood.berkeley.edu/
+    # location: Dhaka Branch
+    # company overview
+    overview: "DataGood @ Berkeley focuses on creating an outlet for students to learn and utilize their data science skills in meaningful impact driven sectors. Members to design, develop, and ship out large-scale products to promote positive socio economic advancement. This project was to create a chatbot for a fire ecology NGO."
+  positions:
+  - designation: Project Manager
+    start: Jan 2021
+    end: Jul 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Lead team of data science students from planning to production of a software project.
+    - Design, develop and managed chatbot using Python and Facebook API.
+    - Worked directly with NGO to create a product that _they_ wanted.
+
+- company:
+    name: UC Berkeley School of Public Health
+    url: "https://data.berkeley.edu/spring-2020-discovery-projects/sf-yeah"
+    #location: Nowhere
+    overview: The SF-YEAH project is a multiphase study in the School of Public Health exploring the ways young people experiencing homelessness in San Francisco experience violence and find safety and resources. The project aims to identify the places, spaces, processes, and structures of safety and violence for young people in order to inform policies and best practices for serving vulnerable youth. The study data is in multiple formats and conditions, including qualitative, geospatial, administrative, and visual data, requiring the organization, curation, and conversion of disparate data into formats that are analyzable using spatial methodologies.
+  positions:
+  - designation: Data Science Research Intern
+    start: Aug 2020
+    end: May 2021
+    responsibilities:
+    - Lead team of data science interns.
+    - Clean and quantify extremely messy qualitative data.
+    - Perform geospatial analysis using ArcGIS.
+    - Advise team lead on data management principles.
+    - Work with experts in domain of psychology/sociology to reasonable develop research methodologies.    
+    - Create visualizations to inform policymakers, researchers, and social service providers toward violence prevention efforts for young people experiencing homelessness.
+
+- company:
+    name: Los Medanos College Career & Transfer Services
+    url: "https://www.transferbound.com/"
+    # location: Dhaka Branch
+    # company overview
+    overview: "Contracted and worked independently to develop a web application used by Californian students to identify majors and related fields as various Californian universities."
+  positions:
+  - designation: Full Stack Developer (Contract)
+    start: May 2019
+    end: Aug 2019
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Scrape and organize over 10,000 rows of information on California public university programs into a single database to be searchable by the public.
+    - Design, develop and manage webapp using Javascript, PHP, HTML, CSS, Python, SQL, Adobe Photoshop and Adobe Illustrator
+    - Create a user-friendly dashboard for management and updating of data by non-technical staff.
+    - Work with staff to develop the tool quickly and correctly.
+
+- company:
+    name: Nerds On Call Computer Repair
+    url: "https://callnerds.com/"
+    # location: Dhaka Branch
+    # company overview
+    overview: "Small consumer computer repair company that worked both in-person and remotely."
+  positions:
+  - designation: Computer Repair Specialist
+    start: Jul 2014
+    end: Jan 2016
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Help customers troubleshoot complex computer problems over the phone.
+    - Run a weekly segment on technical literacy for the local news.
+    - Remotely repair computers using remote access tools.
+    - Train new employees and maintain a database of information on common issues.
+    - Write scripts so that the computer can repair themselves!
