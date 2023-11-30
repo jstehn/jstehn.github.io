@@ -1,5 +1,13 @@
 # Copyright Notice
-copyright: © 2021 Copyright.
+copyright: © 2023 Copyright.
 
 # Meta description for your site.  This will help the search engines to find your site.
 description: Portfolio and personal blog of Jack Stehn.
+
+# Specify OpenGraph Headers
+openGraph:
+  title: Jack's portfolio
+  type: website
+  description: Portfolio and personal blog of Jack Stehn.
+  image: images/author/jack.png
+  url: https://jstehn.github.io

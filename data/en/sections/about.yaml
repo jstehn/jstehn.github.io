@@ -10,12 +10,9 @@ section:
 # your designation
 designation: Data Scientist
 # your company information
-# company:
-#   name: Example Co.
-#   url: "https://www.example.com"
-
-# your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+#company:
+#  name: Example Co.
+#  url: "https://www.example.com"
 
 # a summary about you
 summary: "I am a passionate data scientist that graduated top of class from UC Berkeley. I have built numerous tools for non-profit and public organizations designed to make information accessible to all. Sometimes, I just do fun projects because I get curious and won't be satisfied until I have an answer!"
@@ -23,19 +20,27 @@ summary: "I am a passionate data scientist that graduated top of class from UC B
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "jack.stehn+portfolio@protonmail.com"
+
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/jstehn"
+
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/jack-stehn/"
-- name: Email
-  icon: "fas fa-envelope"
-  url: "mailto:jack.stehn+portfolio@protonmail.com"
 
-# your soft skills
-# give the percentage between 50 to 100 with 5 intervals.
-# currently supported colors: blue, yellow, pink, green, sky, orange
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+# resourceLinks:
+# - title: "My Resume"
+#   url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
 softSkills:
 - name: Leadership
   percentage: 85
@@ -55,6 +60,9 @@ softSkills:
 - name: Problem Solving
   percentage: 95
   color: pink
-# - name: Dancing
-#   percentage: 55
-#   color: pink
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

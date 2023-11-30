@@ -3,13 +3,31 @@ section:
   name: Experiences
   id: experiences
   enable: true
-  weight: 4
+  weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
 
 # Your experiences
 experiences:
+- company:
+    name: SetSail
+    url: https://www.setsail.co/
+    # location: Dhaka Branch
+    # company overview
+    overview: "Wore many hats at this startup. Data scientist that worked on ML models. Redesigned and implemented ETL pipeline. Developed in-house development tools using software engineering skills. Worked directly with customers to create data reports that could be used in important business decisions. Worked as a project lead that redesigned much of the data science backend from scratch to create a unified and scalable data processing core."
+  positions:
+  - designation: Data Scientist
+    start: Sep 2021
+    end: Jan 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Built machine learning models in sklearn and used natural language processing to analyze emails and CRM data to improve sales outcomes.
+    - Redesigned and coded data pipeline using Python, SQL, and AWS to process 400% more data and run 50% faster.
+    - Produced customized reports for enterprise customers.
+
 - company:
     name: DataGood @ Berkeley
     url: https://datagood.berkeley.edu/
