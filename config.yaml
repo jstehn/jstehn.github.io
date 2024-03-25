@@ -1,7 +1,7 @@
 baseURL: https://jstehn.github.io
 
 languageCode: en-us
-title: "Jack's Blog"
+title: "Jack's Content"
 
 # Use Hugo modules to add theme
 module:
