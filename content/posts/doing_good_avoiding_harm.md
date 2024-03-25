@@ -1,7 +1,14 @@
 ---
 title: "Doing Good, Avoiding Harm: Your Guide to Ethical AI and Tech"
 date: 2024-03-23T16:47:59-07:00
-draft: true
+description: How do we build an ethical toolkit to use when building tech?
+menu:
+  sidebar:
+    name: "Doing Good, Avoiding Harm: Your Guide to Ethical AI and Tech"
+    identifier: "aiethics1"
+    weight: 10
+tags: ["AIethics", "Tech"]
+categories: ["Basic"]
 ---
 
 The incredible potential of AI and data science is undeniable. But as data professionals with the power to shape the future,  we must also confront the ethical implications of our work. To ensure technology truly serves humanity, we need a deep understanding of core ethical principles.
