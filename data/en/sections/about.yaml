@@ -15,8 +15,11 @@ designation: Data Scientist
 #  url: "https://www.example.com"
 
 # a summary about you
-summary: "I am a passionate data scientist that graduated top of class from UC Berkeley. I have built numerous tools for non-profit and public organizations designed to make information accessible to all. Sometimes, I just do fun projects because I get curious and won't be satisfied until I have an answer!"
+summary: "Data Scientist driven by a passion to use data for positive change. My journey from homelessness to graduating top of my class at UC Berkeley fuels my commitment to impact-driven work. Worked as data scientist at a Bay Area startup. I optimized data pipelines, develop predictive models, and create in-house tools. Proficient in Python, SQL, AWS, NLP, machine learning, and data visualization.
 
+At SetSail, I slashed data-processing times by 75% and scaled capacity by 400%, enabling real-time sales insights. Led projects that directly improved the data processing core. Also an advocate for inclusion and equity in tech. Mentored data science students at UC Berkeley, building an NGO chatbot, and recognized with the 2020-2021 Outstanding Undergraduate Award.
+
+Seeking opportunities to leverage my data science expertise for social impact and drive results in collaborative environments."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
@@ -42,22 +45,22 @@ socialLinks:
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 softSkills:
-- name: Leadership
-  percentage: 85
+- name: Python Programming
+  percentage: 100
   color: blue
-- name: Team Work
-  percentage: 90
+- name: SQL & Database Interaction
+  percentage: 95
   color: yellow
-- name: Research
-  percentage: 80
+- name: Machine Learning & Statistics
+  percentage: 90
   color: green
-- name: Fast Learner
+- name: Data Pipeline Development & ETL
   percentage: 95
   color: orange
-- name: Communication
+- name: Data Visualization
   percentage: 90
   color: sky
-- name: Problem Solving
+- name: Communication & Collaboration
   percentage: 95
   color: pink
 
