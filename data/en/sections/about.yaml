@@ -46,7 +46,7 @@ socialLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 softSkills:
 - name: Python Programming
-  percentage: 100
+  percentage: 99
   color: blue
 - name: SQL & Database Interaction
   percentage: 95
