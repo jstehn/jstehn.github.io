@@ -28,7 +28,7 @@ projects:
   repo: https://github.com/jstehn/nn-by-hand-188 # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: An excercise of building a neural network by hand used to learn about how neural networks work and the math behind it.
-  tags: ["professional", "machine-learning", "SWE"]
+  tags: ["professional", "academic", "machine-learning", "SWE"]
 
 - name: Firewatch Chatbot
   logo: /images/sections/projects/fire.svg
