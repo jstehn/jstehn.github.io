@@ -24,9 +24,10 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Built machine learning models in sklearn and used natural language processing to analyze emails and CRM data to improve sales outcomes.
-    - Redesigned and coded data pipeline using Python, SQL, and AWS to process 400% more data and run 50% faster.
-    - Produced customized reports for enterprise customers.
+    - Developed predictive models leveraging NLP, machine learning, and sentiment analysis to forecast sales lead conversion probability and expected value.
+    - Led the re-design of the data processing pipeline using Git for version control and AWS cloud services. Developed well-documented, maintainable, and modular Python code using sound design principles, ensuring efficient data flow and scalability.
+    - Re-engineered data pipeline for near real-time analytics, slashing processing times by 75% while scaling data volume by 400%, enabling rapid in-sales-cycle decision-making.
+
 
 - company:
     name: DataGood @ Berkeley
@@ -42,9 +43,11 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Lead team of data science students from planning to production of a software project.
-    - Design, develop and managed chatbot using Python and Facebook API.
-    - Worked directly with NGO to create a product that _they_ wanted.
+    - Designed and developed a chatbot for CalSAFE to teach people fire ecology.
+    - Used a variety of tools to build the product including python, SpaCy and scikit-learn.
+    - Worked with stakeholders at the company to establish project goals and timelines.
+    - Scraped 400+ data points from Twitter, Facebook, Reddit, and other sources.
+
 
 - company:
     name: UC Berkeley School of Public Health
@@ -56,10 +59,11 @@ experiences:
     start: Aug 2020
     end: May 2021
     responsibilities:
-    - Lead team of data science interns.
-    - Clean and quantify extremely messy qualitative data.
-    - Perform geospatial analysis using ArcGIS.
-    - Advise team lead on data management principles.
+    - Lead data science team in geospatial study of violence against homeless youth.
+    - Performed qualitative analysis on 45 walking interviews
+    - Collected data on ~380 locations in San Francisco.
+    - Used ArcGIS and causal analysis to identify and visualize patterns of violence.
+    - Created dashboards using Tableau and Plotly, for local government and non-profits.
     - Work with experts in domain of psychology/sociology to reasonable develop research methodologies.    
     - Create visualizations to inform policymakers, researchers, and social service providers toward violence prevention efforts for young people experiencing homelessness.
 
@@ -77,10 +81,10 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Scrape and organize over 10,000 rows of information on California public university programs into a single database to be searchable by the public.
-    - Design, develop and manage webapp using Javascript, PHP, HTML, CSS, Python, SQL, Adobe Photoshop and Adobe Illustrator
+    - Developed a website to help determine which university program college students should pursue using Javascript, PHP, HTML, CSS, Python, SQL, Adobe Photoshop and Adobe Illustrator.
+    - Scraped web data to build a database of 500+ university programs and consolidated information into a single database to be searchable by the public.
+    - Consulted with stakeholders at California Community College District Chancellor's Office and career counselors to build more effective tools for students.
     - Create a user-friendly dashboard for management and updating of data by non-technical staff.
-    - Work with staff to develop the tool quickly and correctly.
 
 - company:
     name: Nerds On Call Computer Repair
