@@ -238,7 +238,7 @@ params:
 
     # Enable to use `video-player` shortcode
     videoPlayer:
-      enable: true
+      enable: false
       services:
         # convert .js-player class into video player via https://plyr.io/
         # Can play HTML5 Video, Audio, Youtube, Vimeo.
