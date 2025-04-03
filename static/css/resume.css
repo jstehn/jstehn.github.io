@@ -89,3 +89,12 @@ main section h2 {
 .download-button:hover {
     background-color: #005f8a;
 }
+
+/* Dynamic Resume Sections */
+section[id] {
+  margin-bottom: 2rem;
+}
+section[id] h2 {
+  margin-bottom: 1rem;
+  color: var(--primary-color, #0077b6);
+}
