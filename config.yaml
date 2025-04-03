@@ -1,9 +1,289 @@
 baseURL: https://jstehn.github.io
 languageCode: en-us
-title: "Jack's Blog"
-theme: ["PolyRhythmic"]
+title: "Jack's Home"
+theme: ["hugo-coder"]
 
-# Basic PolyRhythmic settings
+# Theme parameters
 params:
-  # Add PolyRhythmic specific parameters here
+  # Author info
+  author: "Jack Stehn"
+  description: "Jack's personal website"
+  info: "Data Scientist"
+  keywords: "blog,developer,personal,data science,machine learning"
+  
+  # Avatar/profile image
+  avatarURL: "images/avatar.jpg"
+  
+  # Specify if you want dark mode toggle
+  colorScheme: auto  # Options: light, dark, auto
+  
+  # Customize date format
+  dateFormat: "January 2, 2006"
+  
+  # Enable/disable comments
+  hideComments: false  # Set to true to hide comments
+  
+  # Customize footer
+  since: 2023
+  commit: false
+  
+  # Enable search functionality
+  enableSearch: true
+  
+  # Content quality
+  maxSeeAlsoItems: 5
+  enableTwemoji: true
+  
+  # Custom CSS and JS
+  customCSS: []
+  customJS: []
+  
+  # Social links
+  social:
+    - name: "Github"
+      icon: "fa-brands fa-github fa-2x"
+      weight: 1
+      url: "https://github.com/jstehn"
+    - name: "LinkedIn"
+      icon: "fa-brands fa-linkedin fa-2x"
+      weight: 2
+      url: "https://linkedin.com/in/jack-stehn"
+    - name: "Email"
+      icon: "fa-solid fa-envelope fa-2x"
+      weight: 3
+      url: "mailto:contact@example.com"
+  
+  # Resume path
+  resumePath: "static/resume/base_resume.json"
+  baseResume:
+    basics:
+      name: "Jack Stehn"
+      label: "Data Scientist | ML Engineer"
+      email: "jack.stehn@protonmail.com"
+      url: "https://ste.hn/"
+      image: "https://ste.hn/vcard/portrait.jpg"
+      phone: "(415) 787-7975"
+      summary: "Hello! I'm Jack. My experiences, including navigating homelessness before graduating top of my class at Cal, gave me a unique perspective and a strong desire to apply data science thoughtfully. As a Data Scientist / ML Engineer, I enjoy connecting the dots: understanding the need, designing scalable data solutions, building effective ML models (like predictive, NLP, or deep learning), and deploying them responsibly. I believe the best results come from open collaboration with users and colleagues, grounded in solid engineering practices (Python, SQL, Cloud, testing, etc.) and a commitment to ethical development. I find real satisfaction in untangling complexity to create useful tools."
+      location:
+        city: "San Francisco"
+        region: "California"
+        countryCode: "US"
+      profiles:
+        - network: "LinkedIn"
+          username: "jack-stehn"
+          url: "https://www.linkedin.com/in/jack-stehn"
+        - network: "GitHub"
+          username: "jstehn"
+          url: "https://github.com/jstehn"
+        - network: "WordPress"
+          username: "ste.hn"
+          url: "https://ste.hn/"
+    work:
+      - name: "Caliber Public Schools"
+        position: "Senior Data Scientist"
+        startDate: "2024-10-20"
+        summary: "Driving data strategy, modernizing infrastructure, and building ML capabilities as the sole data expert to enhance organizational effectiveness and data-driven decision-making."
+        highlights:
+          - "Owned the full data lifecycle (ingestion, processing, modeling, deployment, monitoring), leading DS, DE, & ML initiatives and guiding strategic data decisions as the sole data expert."
+          - "Modernized the data infrastructure: designed and implemented automated, scalable pipelines and warehousing on GCP (BigQuery, GCS), leveraging APIs for diverse data source ingestion (HR systems, surveys) using a modern stack (Dagster, dbt, dlt)."
+          - "Developed and deployed ML models (incl. Deep Learning, Bayesian methods - PyMC3) for predictive analytics (e.g., staff turnover) and insights (e.g., NLP for sentiment segmentation)."
+          - "Designed and delivered training modules and resources via weekly sessions to upskill data practitioners across different teams, fostering data literacy and collaboration."
+          - "Partnered with leadership and department heads to identify high-impact problems solvable with data science."
+      - name: "SetSail"
+        position: "Data Scientist"
+        startDate: "2021-09-01"
+        endDate: "2023-01-01"
+        summary: "Applied data science and engineering skills within a B2B SaaS startup, developing ML features for sales intelligence platforms, optimizing data systems for scale, and working closely with customers to tailor solutions."
+        highlights:
+          - "Led the full lifecycle (proposal, design, implementation, testing, deployment) of a high-performance data pipeline overhaul on AWS (EC2, S3, Lambda, Athena), enabling near real-time ML applications and scaling data handling 4x (TBs scale)."
+          - "Architected scalable data solutions using optimized data structures (star schema), efficient DAG management (manual orchestration), and async data ingestion techniques."
+          - "Developed, deployed, and monitored production ML models, including recommendation algorithms (e.g., collaborative filtering approaches) optimizing sales action relevance using NLP (sentiment analysis), and predictive models (e.g., deal closure probability)."
+          - "Worked directly with enterprise end-users and customer support teams to gather feedback, troubleshoot issues, and customize ML-driven features, ensuring practical value and adoption."
+          - "Implemented software engineering best practices including comprehensive unit/integration testing and CI/CD pipelines (GitHub Actions) within an Agile (Shortcut) workflow."
+          - "Collaborated closely with engineering, product, and customer support teams to define requirements, manage dependencies, and ensure successful project delivery in a dynamic startup environment."
+      - name: "UC Berkeley School of Public Health"
+        position: "Data Science Research Intern"
+        startDate: "2020-09-01"
+        endDate: "2021-05-01"
+        summary: "Provided data science support for a faculty-led research team investigating social determinants of health and violence impacting homeless youth populations."
+        highlights:
+          - "Contributed programming skills (Python), including developing and evaluating Deep Learning models (LSTMs, Transformers) for intent classification in an NGO's mental health chatbot."
+          - "Performed statistical analysis and geospatial analysis (ArcGIS) on sensitive survey and administrative data to identify patterns and risk factors related to youth homelessness."
+          - "Collaborated with public health experts and community partners to develop robust, ethical research methodologies and ensure data privacy compliance."
+          - "Contributed to data cleaning, preprocessing, and visualization for research reports and presentations."
+    education:
+      - institution: "University of California, Berkeley"
+        area: "Data Science (Domain Emphasis: Quantitative Social Science)"
+        studyType: "Bachelor's Degree"
+        startDate: "2019-01-01"
+        endDate: "2021-12-01"
+        score: "4.0, Highest Distinction"
+    skills:
+      - name: "Programming Languages"
+        keywords:
+          - "Python"
+          - "R"
+          - "SQL"
+          - "Bash/Shell Scripting"
+          - "Java (Familiar)"
+          - "JavaScript (Familiar)"
+          - "HTML/CSS (Familiar)"
+          - "C++ (Familiar)"
+      - name: "ML Libraries & Frameworks"
+        keywords:
+          - "pandas"
+          - "NumPy"
+          - "scikit-learn"
+          - "PyTorch"
+          - "TensorFlow"
+          - "Keras"
+          - "PyMC3"
+          - "spaCy"
+          - "NLTK"
+      - name: "Software Engineering Practices"
+        keywords:
+          - "Production Code Quality"
+          - "Software Design Patterns"
+          - "Object-Oriented Programming (OOP)"
+          - "Unit Testing"
+          - "Integration Testing"
+          - "pytest"
+          - "CI/CD"
+          - "Git"
+          - "Agile Methodologies"
+          - "Scrum"
+          - "Kubernetes (Familiar)"
+          - "Terraform (Familiar)"
+      - name: "Data Engineering & Cloud Platforms"
+        keywords:
+          - "AWS (EC2, S3, Lambda, Athena, EMR, Step Functions)"
+          - "Google Cloud Platform (BigQuery, GCS)"
+          - "Data Pipelines & Orchestration (Dagster)"
+          - "dbt"
+          - "dlt"
+          - "Docker"
+          - "API Integration"
+          - "Data Architecture"
+          - "Scalability & Performance Tuning"
+          - "Large-Scale Data Analysis"
+          - "Low-Latency Systems"
+          - "ETL/ELT Design"
+          - "Data Modeling"
+          - "Data Warehousing"
+          - "Data Quality Tools"
+          - "Serverless Architecture"
+          - "Spark (Familiar)"
+      - name: "Machine Learning Concepts"
+        keywords:
+          - "Predictive Modeling (Regression, Classification)"
+          - "Recommendation Systems"
+          - "Personalization"
+          - "Deep Learning"
+          - "Natural Language Processing (NLP)"
+          - "Sentiment Analysis"
+          - "Intent Classification"
+          - "Topic Modeling"
+          - "Unsupervised Learning (Clustering, Dimensionality Reduction)"
+          - "Supervised Learning"
+          - "Feature Engineering"
+          - "Hyperparameter Tuning"
+          - "Model Evaluation & Selection"
+          - "Statistical Modeling"
+          - "Hypothesis Testing"
+          - "Experimental Design"
+          - "Bayesian Statistics"
+          - "Causal Inference (Familiar)"
+          - "A/B Testing (Offline Evaluation / Simulation)"
+          - "Time Series Analysis"
+          - "MLOps"
+          - "Ethical AI Practices"
+          - "Fairness & Bias Analysis"
+          - "Data Mining"
+          - "Information Retrieval"
+      - name: "Collaboration & Product"
+        keywords:
+          - "Cross-functional Collaboration"
+          - "Stakeholder Communication"
+          - "User Feedback Integration"
+          - "Requirements Gathering"
+          - "Project Planning & Docs"
+          - "Technical Writing"
+          - "Mentoring"
+          - "Presentation Skills"
+      - name: "Visualization"
+        keywords:
+          - "Plotly"
+          - "Matplotlib"
+          - "Seaborn"
+          - "Tableau (Familiar)"
+    interests:
+      - name: "Technology & Tinkering"
+        keywords:
+          - "Generative AI (Local Models)"
+          - "Large Language Models (LLMs)"
+          - "Raspberry Pi Projects"
+      - name: "Creative & Community"
+        keywords:
+          - "Singing"
+          - "Dancing"
+          - "Community Engagement"
+          - "Local Politics"
+    awards:
+      - title: "Impact Fellow"
+        date: "2024"
+        awarder: "Education Pioneers"
+        summary: "Selected for a leadership development fellowship focused on using data and management skills to advance equity in the education sector."
+      - title: "2020-2021 Outstanding Data Science Undergraduate Award"
+        date: "2021-05-21"
+        awarder: "UC Berkeley"
+        summary: "Recognized for excellence in Data Science undergraduate studies, research, and community contributions at UC Berkeley."
+    volunteer:
+      - organization: "Bearrison Street Fair"
+        position: "Event Producer"
+        startDate: "2022-09-01"
+        summary: "Managed logistics, entertainment, and fundraising (secured $90k+) for a large-scale LGBTQ+ community event, coordinating diverse stakeholders."
+      - organization: "San Francisco Gay Men's Chorus"
+        position: "Data Team Lead"
+        startDate: "2023-12-01"
+        summary: "Provide data-driven insights for policy-making and organizational growth through survey creation and analysis (qualitative & quantitative)."
+      - organization: "San Francisco Gay Men's Chorus"
+        position: "Mentor and Trans Support Leader"
+        startDate: "2018-01-01"
+        summary: "Support members through mentorship and leadership within trans support initiatives, coordinating meetings and events."
+    references:
+      - name: "Danny Pan (Direct Manager @ SetSail)"
+        reference: "Jack's passion for data analytics and software development stands out... [They] worked on... enhancing modeling capabilities through feature development and algorithm development, and building out a data ETL process that transformed the data infrastructure to help SetSail scale... collaborative work with the engineering and product team continually earned praises... always proactive to jump in and help solve a problem."
+      - name: "Josh Mantovani, M.A. (Senior Colleague @ SetSail)"
+        reference: "Jack's expertise in data science, combined with their passion for software engineering, make them a valuable asset... keen ability to plan and lead complex cross functional projects and their software engineering skills are second to none... a great communicator... able to explain technical concepts... easy for both technical and non-technical colleagues to understand... one of the kindest and most genuine people I've worked with."
+      - name: "Sarah Nam (Team Colleague @ SetSail)"
+        reference: "Jack was an integral part of the planning and designing of data pipeline overhaul at SetSail... able to adjust the design of our new pipeline, maintaining conversations across the product and engineering teams as the project progressed. They are also a fast learner and willing to dig into new technologies..."
+      - name: "Darrin Gilkerson (SWE Colleague @ SetSail)"
+        reference: "Jack's enthusiasm for data science and their love of learning (and sharing what is learned)... an extremely capable engineer and data scientist... collaborative team player who elevates everyone around them... huge role in our data pipeline migration... count on Jack to get the job done on time, with clean code, and great documentation."
+      - name: "G. Allen Ratliff (Manager @ UC Berkeley / SFYEAH Project)"
+        reference: "Jack is a motivated self-starter... loves to accomplish project tasks while developing and implementing smooth processes... an accomplished leader, utilizing problem-solving skills... ready and willing to teach peers and colleagues how to utilize those new skills, supporting team-based processes... uses imagination, experience, and empathy to create sustainable processes."
+    languages:
+      - language: "English"
+        fluency: "Native speaker"
+      - language: "Spanish"
+        fluency: "Intermediate"
+      - language: "Esperanto"
+        fluency: "Intermediate"
+    projects: []
+    certificates: []
+    publications: []
 
+# Menu configuration
+menu:
+  main:
+    - name: "Blog"
+      url: "/posts/"
+      weight: 1
+    - name: "Resume"
+      url: "/resume/"
+      weight: 2
+    - name: "Projects"
+      url: "/projects/"
+      weight: 3
+    - name: "Contact"
+      url: "/contact/"
+      weight: 4
