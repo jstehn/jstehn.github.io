@@ -251,6 +251,9 @@ params:
     readingTime:
       enable: false
 
+  custom:
+    mySetting: "My Value"
+    showSpecialSection: true
 
   # Provide footer configuration.
   footer:
