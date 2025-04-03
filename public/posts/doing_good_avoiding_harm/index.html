@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Doing Good, Avoiding Harm: Your Guide to Ethical AI and Tech</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.4749e25aee50ba4668e6a57a19e772d721812346fc19b163baef01f8bd373dde.css" integrity="sha256-R0niWu5QukZo5qV6Gedy1yGBI0b8GbFjuu8B&#43;L03Pd4=" />
+
+
+
+
+
+
+
+<meta property="og:url" content="https://jstehn.github.io/posts/doing_good_avoiding_harm/">
+  <meta property="og:site_name" content="Jack&#39;s Blog">
+  <meta property="og:title" content="Doing Good, Avoiding Harm: Your Guide to Ethical AI and Tech">
+  <meta property="og:description" content="How do we build an ethical toolkit to use when building tech?">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-03-23T16:47:59-07:00">
+    <meta property="article:modified_time" content="2024-03-23T16:47:59-07:00">
+    <meta property="article:tag" content="AIethics">
+    <meta property="article:tag" content="Tech">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Doing Good, Avoiding Harm: Your Guide to Ethical AI and Tech">
+  <meta name="twitter:description" content="How do we build an ethical toolkit to use when building tech?">
+
+    
+    
+<meta name="description" content="How do we build an ethical toolkit to use when building tech?" />
+
+
+
+    
+
+    
+
+
+
+
+
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
+    
+  </head>
+
+  <body class="type-posts kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
+  <div class="container">
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
+    </button>
+    
+    <a class="navbar-brand" href="/">
+      Jack&#39;s Blog</a>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#skills">Skills</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#experiences">Experiences</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#education">Education</a>
+                </li>
+              
+            
+            
+            
+              
+              
+            
+            
+            
+            
+              
+              
+            
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#projects">Projects</a>
+                    
+                  
+                  
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#achievements">Achievements</a>
+                    
+                  
+              </div>
+            </li>
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+          </li>
+        
+        
+        
+        
+        
+          
+
+
+
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+  
+</div>
+</li>
+
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active list-link" href="/posts/doing_good_avoiding_harm/" title="Doing Good, Avoiding Harm: Your Guide to Ethical AI and Tech">Doing Good, Avoiding Harm: Your Guide to Ethical AI and Tech</a></li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        
+        <div class="author-profile ms-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/jack_hu_dfca0e60bf1b0701.png' alt="Author Image">
+          <h5 class="author-name">Jack Stehn</h5>
+          <p class="text-muted">Saturday, March 23, 2024 | 11 minutes</p>
+        </div>
+        
+
+        <div class="title">
+          <h1>Doing Good, Avoiding Harm: Your Guide to Ethical AI and Tech</h1>
+        </div>
+
+        
+
+        
+          <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li class="rounded"><a href="/tags/aiethics/" class="btn btn-sm btn-info">AIethics</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/tech/" class="btn btn-sm btn-info">Tech</a></li>
+    
+  </ul>
+</div>
+
+        
+        <div class="post-content" id="post-content">
+          <p>The incredible potential of AI and data science is undeniable. But as data professionals with the power to shape the future,  we must also confront the ethical implications of our work. To ensure technology truly serves humanity, we need a deep understanding of core ethical principles.</p>
+<p>My experience developing data ethics resources for UC Berkeley’s College of Computing, Data Science, and Society and their Human Contexts and Ethics program, coupled with real-world case studies (like working with data on vulnerable populations in San Francisco or building a data science product at a startup) has fueled my passion for this topic. In this six-part blog series,  I&rsquo;ll share insights gleaned from leading experts and organizations to help you navigate the complex world of AI ethics.</p>
+<p>Whether you&rsquo;re a tech professional seeking greater clarity, or a concerned citizen who wants to understand these issues, this series will equip you to tackle the big questions: How do we design AI systems that do good and avoid harm? How do we balance innovation with protecting fundamental human values?</p>
+<p>If you sense the importance of AI ethics but feel unequipped to navigate its complexities, this blog is for you. I hope to empower you to ask informed questions, engage in meaningful discussions, and ensure that AI serves the best interests of society.</p>
+<p>Let&rsquo;s dive in, starting with the foundational principle: Do good, avoid harm.</p>
+<h1 id="do-good-avoid-harm">Do good, avoid harm</h1>
+<p>This is one of the most consistent principles that you will find in most published ethical guidelines. In fact, it is the first in <a href="https://ai.google/responsibility/principles/" target="_blank" rel="noopener">Google AI Principles</a>. It is the hippocratic oath of data science, however defining good or harm becomes incredibly nebulous. These concepts are subjective and depend on cultural and societal values. What constitutes benefit for one group may be detrimental to another (Example: facial recognition helps law enforcement but may contribute to discriminatory surveillance). It will be useful in our journey to explore ethical frameworks that help inform what is good and what is harmful.</p>
+<h2 id="ethical-frameworks">Ethical frameworks</h2>
+<p>First, we must have an understanding of how each of us defines good. Here, we can look at three large branches of moral philosophy frameworks: Consequentialism, deontology, and virtue ethics. Each one has its own wisdom and its own pitfalls.</p>
+<h3 id="consequentialism">Consequentialism</h3>
+<p>In consequentialism, the morality of an action is judged solely by its consequences. Good consequences equal an ethical action. Utilitarianism is a common form, aiming to maximize the overall good or happiness. This is one of the most attractive moral philosophies for data scientists as it is often easy to define some metric to maximize or minimize. It is an adaptable philosophy that focuses on practical outcomes.</p>
+<p>This framework shines when outcomes are consistent, the good is largely quantifiable, and when looking at large scale problems. For example, it is very good for public health interventions. During the COVID-19 pandemic, analyzing data on transmission rates, risk factors, and the effectiveness of non-pharmaceutical interventions played a crucial role in many policy decisions. A consequentialist approach can help in the distribution of a limited resource to maximize positive outcomes which makes it well suited for crisis response like disaster relief or triage.</p>
+<p>However, consequentialism falls short in some major ways. First, it pretends that the world is consistent enough to predict outcomes. In reality, it is impossible to foresee all the potential consequences and ripple effects of an action. Consequentialism provides little guidance on how to operate when the exact outcomes are unclear. Additionally, there are no objective measurements of goodness. Is a single life more valuable than the ability of a person to live comfortably and escape poverty? What about a family? How about the wellbeing of thousands of people? We already passively make these calculations. According to the CDC, <a href="https://www.cdc.gov/injury/features/global-road-safety/index.html" target="_blank" rel="noopener">Road traffic crashes are a leading cause of death</a> in the United States for people ages 1–54. Collectively, we have decided the gains we receive to have vehicles outweigh the <a href="https://injuryfacts.nsc.org/motor-vehicle/overview/preliminary-estimates/" target="_blank" rel="noopener">over 44,000 lives estimated to be lost</a> last year. Some values are difficult or impossible to quantify. Consequentialism struggles to make decisions when values cannot be compared on a single scale.</p>
+<p>Second, under consequentialism, it is quite easy to justify “bad” means for “good” ends. If all you are judging an action by is the outcomes, then all means become available to you as long as the outcome is good enough. Lying, stealing, or even harming individuals might be rationalized if they lead to a greater overall benefit. We see that, with sufficient mental gymnastics, any belief and behavior can be justified. Additionally, engaging in this unethical behavior for outcomes erodes trust in institutions that rely on a consequentialist basis.</p>
+<p>Consequentialism naturally prioritizes the majority. If one is attempting to maximize overall good, the needs and rights of minorities or individuals may be sacrificed for the sake of the benefits gained by the majority group. For example, Native land in the United States has long <a href="https://inkstickmedia.com/how-native-land-became-a-target-for-nuclear-waste/" target="_blank" rel="noopener">bore the burden of containing our nuclear waste</a>. In a consequentialist view, these lands are less dense in population and harm the minority population who often lack political or economic power. The majority population does not have to live with the waste anymore and you have maximized “good.” Purely consequentialist reasoning can lead to viewing people as a means to an end rather than individuals with inherent worth.</p>
+<p>Let’s see how consequentialism works out in data science contexts. The classic &rsquo;trolley problem&rsquo; forced into reality: Should a self-driving car prioritize the safety of its passengers or minimize overall casualties in an unavoidable accident? A consequentialist approach focuses on the outcomes of each choice. Should a streaming service recommend content it knows the user enjoys, even if it might be addictive or unhealthy in the long run? Consequentialists weigh the short-term pleasure against potential negative long-term impacts. During a pandemic, should limited medical resources go to those with the highest chance of survival or those that play the most &rsquo;essential&rsquo; roles in society? Consequentialism helps analyze different ways of maximizing overall good.</p>
+<h3 id="deontology">Deontology</h3>
+<p>In deontology, often referred to as duty ethics, actions are judged by their adherence to universal moral rules, regardless of the consequences. They are often based on ideas like human rights, honesty, and duty. It seeks to address some of the disadvantages of consequentialism. It prevents actions that use people purely as a means to an end. It prevents the tyranny of the majority and upholds human dignity. It provides consistency in decision-making and gives moral clarity by reducing confusion in morally complex situations by using clear-cut guidelines.</p>
+<p>In some illustrative examples, a deontologist might argue that a doctor has a duty to prioritize the patient’s well-being and autonomy even if a treatment might result in negative consequences for the patient or the doctor.</p>
+<p>A deontological framework does not do well in the inevitable clashes of rules and duties that are opposed to each other. Imagine a doctor who feels obligated to reveal life-threatening test results to a patient, even if it might severely damage the patient&rsquo;s emotional state. Here, the principle of honesty conflicts with the duty to avoid causing harm. A deontologist must consider how to weigh these ethical obligations.</p>
+<p>However, deontology comes with its own shortcomings. First, it leads to inevitable clashes. What does one do if moral duties conflict? What is the culture which creates the duties? How do you define good in this case?</p>
+<p>The most common place to find the deontological framework used is in law and justice. It holds that the rule of law is important and that upholding the process and rights is paramount regardless of outcomes. While this creates an illusion of fairness, blindly following the law without questioning its morality can perpetuate unjust systems. For example, judges may be <a href="https://www.npr.org/2017/06/01/531004316/a-federal-judge-says-mandatory-minimum-sentences-often-dont-fit-the-crime" target="_blank" rel="noopener">obligated to enforce laws they deem unethical or disproportionately harsh</a>.</p>
+<p>It is often rigid and inflexible. It also disregards consequences. In a deontological framework, one has a moral obligation to keep a promise, even if breaking it results in a better outcome for others. The father of deontology is <a href="https://www.britannica.com/topic/deontological-ethics" target="_blank" rel="noopener">Immanuel Kant</a>, who referred to telling the truth as a perfect duty; a duty which one must always do. Now, there is <a href="https://academic.oup.com/book/5430/chapter-abstract/148272683?redirectedFrom=fulltext" target="_blank" rel="noopener">a lot of nuance</a> in what Kant refers to here, but for simplicity let’s say that we agree with this as a basic tenet of morality. Imagine a murderer comes to your door and is seeking your friend whom you have hidden in the attic. The murderer asks you for the location of your friend. Under the rigidness of a purely deontological framework, you cannot lie to save your friend.</p>
+<p>We can see deontology manifest to create good data science practices already. Do users have an absolute right to know how their data is used, even if it hinders a company&rsquo;s ability to innovate or provide services? For a deontologist, protecting individual rights often takes precedence over exploiting potential benefits. Is it ever right to exploit known psychological vulnerabilities to sell products, regardless of whether the product itself is beneficial? A deontologist might argue this always violates the principle of treating people with respect. Even if it could be shown to reduce crime, does the use of algorithms in criminal sentencing violate inherent rights to a fair trial? Deontology focuses on upholding justice processes regardless of the outcome.</p>
+<h3 id="virtue-ethics">Virtue Ethics</h3>
+<p>Virtue ethics shifts the focus from specific actions to who we want to be as data scientists. It asks, &ldquo;What kind of person should I be?&rdquo; rather than &ldquo;What specific actions are right or wrong?&rdquo; Instead of focusing on the duties that one must perform, it seeks to cultivate particular virtues such as honesty, compassion, and fairness over one’s life through learning, practice, and self-reflection.</p>
+<p>Unfortunately, while virtue ethics may produce a great person, it is also the most hand-wavy of the three frameworks we are looking at today. Unlike a rule-based system, virtue ethics provides less concrete guidance for specific ethical dilemmas. Virtues are different across cultures and historical periods, and they often change. It also can create concerns about inclusivity as the virtues that one person might hold as unassailable are culturally insignificant to others.  Virtue ethics can neglect systemic issues by focusing on individual character as it can downplay the role of external factors that influence behavior like poverty or inequality.</p>
+<p>Virtue ethics often focuses on what an individual might do rather than what we can do collectively. This may seem to be a weakness, but it also provides some major strength for data scientists. Should a data scientist speak up if they see potential bias or harm in a project, even at personal risk? Virtue ethics emphasizes courage as essential for taking ethical action. How can data scientists cultivate awareness and empathy to recognize potential biases in datasets or model design? Virtue ethics focuses on building character traits to proactively address ethical concerns. When a project doesn&rsquo;t deliver the intended results, should the data scientist sugarcoat the outcome – or is honesty a key virtue? Virtue ethics emphasizes truth-telling and integrity even when it&rsquo;s difficult.</p>
+<h2 id="how-do-i-use-this-as-a-data-scientist">How do I use this as a data scientist?</h2>
+<p>As you might have guessed, there is no right framework to operate under. Each one is fantastic for some reasons and utterly fails in other situations. It’s important to understand the strengths and weaknesses of each framework and adapt your own understanding of “good” by utilizing them all. Know when to prioritize: recognize that no single framework is perfect. Deontology offers clarity on fundamental rights, consequentialism keeps outcomes in sight, virtue ethics focuses on character.</p>
+<p>In order to define “good” and “harm,” one has to have that “ethical toolbox” to pull from. Whose good are we talking about? Is it good for the company? The good of the customer? Society? Employees? How can you balance these conflicting perspectives? Your own cultural background shapes your perception of benefit and harm. How can you actively seek out diverse perspectives?  How do you deal with unpredictability and long term uncertainty?  What is an acceptable risk? How can you incorporate social and human flourishing metrics into your assessment of benefits? When you have a better understanding of _how _you decide what is good, you are much more likely to come to a conclusion that reduces harm.  When you put more thought into how you’re defining good, you’re much better able to consider how to measure it.</p>
+<p>Being an ethical data scientist is about continuously asking hard questions, embracing uncertainty, and actively working to minimize harm while aiming for beneficial impacts.</p>
+<h2 id="where-do-we-go-from-here">Where do we go from here?</h2>
+<p>This is just the first step on our journey to building a future powered by ethical AI! Over the next five posts, we&rsquo;ll tackle each core principle in detail, arming you with a practical &ldquo;ethical toolbox&rdquo; to navigate these issues. We&rsquo;ll explore real-world case studies, unpack tricky problems, and demystify the jargon.</p>
+<p>Imagine: You&rsquo;re at a dinner party, and the conversation turns to AI. You confidently chime in, not just informed, but empowered to ask insightful questions and propose solutions.</p>
+<p>Because here&rsquo;s the truth: Everyone has a role to play in shaping responsible AI. Whether you&rsquo;re an everyday user, a developer, a CEO, or a data scientist, your voice matters. This series will equip you to be an active participant in the conversation, influencing the future of technology for the better.</p>
+<p>So, buckle up and get ready to dive into the fascinating world of AI ethics! Let&rsquo;s make the future bright.</p>
+<p>This post was made with the assistance of Google Gemini. I use it as an editing and organizational tool after sharing my notes with it, however the ideas, concepts, and construction of the information is my own. I am disclosing this information in keeping with my own virtue of honesty and disclosure. 😊</p>
+
+        </div>
+
+        
+        <div class="row ps-3 pe-3">
+        
+          <div class="col-md-6 share-buttons">
+          
+            <strong>Share on:</strong>
+            
+            <a class="btn icon-button bg-facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjstehn.github.io%2fposts%2fdoing_good_avoiding_harm%2f" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            
+                <a class="btn icon-button bg-twitter" href="https://twitter.com/share?url=https%3a%2f%2fjstehn.github.io%2fposts%2fdoing_good_avoiding_harm%2f&text=Doing%20Good%2c%20Avoiding%20Harm%3a%20Your%20Guide%20to%20Ethical%20AI%20and%20Tech&via=Jack%27s%20Blog" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+                <a  class="btn icon-button bg-reddit" href="https://reddit.com/submit?url=https%3a%2f%2fjstehn.github.io%2fposts%2fdoing_good_avoiding_harm%2f&title=Doing%20Good%2c%20Avoiding%20Harm%3a%20Your%20Guide%20to%20Ethical%20AI%20and%20Tech" target="_blank">
+                  <i class="fab fa-reddit"></i>
+                </a>
+            
+            
+            
+            
+                <a class="btn icon-button bg-linkedin" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fjstehn.github.io%2fposts%2fdoing_good_avoiding_harm%2f&title=Doing%20Good%2c%20Avoiding%20Harm%3a%20Your%20Guide%20to%20Ethical%20AI%20and%20Tech" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+             
+            
+                 <a class="btn icon-button bg-whatsapp" href="https://api.whatsapp.com/send?text=Doing%20Good%2c%20Avoiding%20Harm%3a%20Your%20Guide%20to%20Ethical%20AI%20and%20Tech https%3a%2f%2fjstehn.github.io%2fposts%2fdoing_good_avoiding_harm%2f" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+            
+            
+                <a class="btn icon-button" href="mailto:?subject=Doing%20Good%2c%20Avoiding%20Harm%3a%20Your%20Guide%20to%20Ethical%20AI%20and%20Tech&body=https%3a%2f%2fjstehn.github.io%2fposts%2fdoing_good_avoiding_harm%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/jstehn/jstehn.github.io/edit/main/content/posts/doing_good_avoiding_harm.md" title="Improve this page" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+    
+    
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center ps-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#ethical-frameworks">Ethical frameworks</a>
+      <ul>
+        <li><a href="#consequentialism">Consequentialism</a></li>
+        <li><a href="#deontology">Deontology</a></li>
+        <li><a href="#virtue-ethics">Virtue Ethics</a></li>
+      </ul>
+    </li>
+    <li><a href="#how-do-i-use-this-as-a-data-scientist">How do I use this as a data scientist?</a></li>
+    <li><a href="#where-do-we-go-from-here">Where do we go from here?</a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-start">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jstehn.github.io/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jstehn.github.io/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jstehn.github.io/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jstehn.github.io/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jstehn.github.io/#projects">Projects</a>
+                </li>
+              
+              
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jstehn.github.io/#achievements">Achievements</a>
+                </li>
+              
+            
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:jack.stehn&#43;portfolio@protonmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>jack.stehn&#43;portfolio@protonmail.com</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu_b3360284c55cf72d.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2023 Copyright.</div>
+        <div class="col-md-4 text-end">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.f5c991a8d551fd5ef3d38b94fe3d7c315d0ef1e7c460494603023f0fe1f053db.js" integrity="sha256-9cmRqNVR/V7z04uU/j18MV0O8efEYElGAwI/D&#43;HwU9s=" defer></script>
+
+
+    
+     
+
+    
+    
+
+</body>
+</html>

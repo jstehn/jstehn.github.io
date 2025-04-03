@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jack&#39;s Blog</title>
+    <link>https://jstehn.github.io/</link>
+    <description>Recent content on Jack&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 23 Mar 2024 16:47:59 -0700</lastBuildDate><atom:link href="https://jstehn.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Doing Good, Avoiding Harm: Your Guide to Ethical AI and Tech</title>
+      <link>https://jstehn.github.io/posts/doing_good_avoiding_harm/</link>
+      <pubDate>Sat, 23 Mar 2024 16:47:59 -0700</pubDate>
+      
+      <guid>https://jstehn.github.io/posts/doing_good_avoiding_harm/</guid>
+      <description>&lt;p&gt;The incredible potential of AI and data science is undeniable. But as data professionals with the power to shape the future,  we must also confront the ethical implications of our work. To ensure technology truly serves humanity, we need a deep understanding of core ethical principles.&lt;/p&gt;
+&lt;p&gt;My experience developing data ethics resources for UC Berkeley’s College of Computing, Data Science, and Society and their Human Contexts and Ethics program, coupled with real-world case studies (like working with data on vulnerable populations in San Francisco or building a data science product at a startup) has fueled my passion for this topic. In this six-part blog series,  I&amp;rsquo;ll share insights gleaned from leading experts and organizations to help you navigate the complex world of AI ethics.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </channel>
+</rss>
