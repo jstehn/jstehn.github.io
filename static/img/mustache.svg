@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg7899"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="mustache.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7901"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.587745"
+     inkscape:cx="506.23227"
+     inkscape:cy="457.73444"
+     inkscape:window-width="2494"
+     inkscape:window-height="1371"
+     inkscape:window-x="66"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs7896" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path8320"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 129.17196 107.97946 C 128.97226 107.97401 128.77539 107.97458 128.58182 107.98152 C 118.31842 108.34966 114.21993 111.48386 112.03295 115.8136 C 109.84359 111.49367 105.74179 108.36876 95.493396 108.00116 C 83.104528 107.55679 57.918305 132.96404 52.61746 122.44111 C 47.316615 111.91816 61.739856 111.69458 61.451546 111.0108 C 61.16324 110.32701 47.022453 106.76032 47.022453 124.06581 C 47.022453 141.05783 69.540714 144.38344 82.213586 144.38344 C 92.570353 144.09984 106.62578 138.78975 112.04432 130.81992 C 117.47261 138.77883 131.51332 144.08096 141.86163 144.36431 C 154.53454 144.36431 177.05328 141.03819 177.05328 124.04618 C 177.05328 106.74068 162.91198 110.30789 162.62367 110.99167 C 162.33536 111.67546 176.75863 111.89904 171.45775 122.42198 C 166.2397 132.7805 141.75313 108.32243 129.17196 107.97946 z " />
+  </g>
+</svg>
